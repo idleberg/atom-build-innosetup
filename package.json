@@ -1,16 +1,14 @@
 {
-  "name": "build-innosetup",
-  "version": "0.1.0",
-  "description": "Atom Build provider for Inno Setup, compiles Inno Setup scripts",
-  "repository": "https://github.com/idleberg/atom-build-innosetup",
+  "name": "build-makepbo",
+  "version": "0.0.0",
+  "description": "Atom Build provider for MakePbo, compiles pbo",
+  "repository": "https://github.com/idleberg/atom-build-makepbo",
   "license": "MIT",
   "keywords": [
     "build",
     "compile",
-    "inno setup",
-    "iscc",
-    "windows",
-    "installer"
+    "makepbo"
+    "pbo"
   ],
   "main": "lib/provider.js",
   "engines": {
@@ -18,7 +16,7 @@
   },
   "providedServices": {
     "builder": {
-      "description": "Compiles Inno Setup scripts",
+      "description": "Compiles pbo",
       "versions": {
         "2.0.0": "provideBuilder"
       }
