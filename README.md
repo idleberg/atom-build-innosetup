@@ -1,10 +1,10 @@
+# build-innosetup
+
 [![apm](https://img.shields.io/apm/l/build-innosetup.svg?style=flat-square)](https://atom.io/packages/build-innosetup)
 [![apm](https://img.shields.io/apm/v/build-innosetup.svg?style=flat-square)](https://atom.io/packages/build-innosetup)
 [![apm](https://img.shields.io/apm/dm/build-innosetup.svg?style=flat-square)](https://atom.io/packages/build-innosetup)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-innosetup.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-innosetup)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-innosetup.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-innosetup#info=dependencies)
-
-# build-innosetup
 
 [Atom Build](https://atombuild.github.io/) provider for Inno Setup, compiles Inno Setup
 
