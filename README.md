@@ -8,6 +8,10 @@
 
 [Atom Build](https://atombuild.github.io/) provider for Inno Setup, compiles Inno Setup. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/atom-build-innosetup/master/screenshot.png)
+
+*See the linter in action*
+
 ## Installation
 
 ### apm
