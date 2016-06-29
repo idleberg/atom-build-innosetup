@@ -6,7 +6,7 @@
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-innosetup.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-innosetup)
 [![David](https://img.shields.io/david/dev/idleberg/atom-build-innosetup.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-innosetup#info=dependencies)
 
-[Atom Build](https://atombuild.github.io/) provider for Inno Setup, compiles Inno Setup
+[Atom Build](https://atombuild.github.io/) provider for Inno Setup, compiles Inno Setup. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
 ## Installation
 
