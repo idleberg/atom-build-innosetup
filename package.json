@@ -6,11 +6,13 @@
   "license": "MIT",
   "keywords": [
     "build",
-    "compile",
     "inno setup",
-    "iscc",
-    "windows",
+    "innosetup",
     "installer"
+    "windows",
+    "iscc",
+    "build tool",
+    "compiler",
   ],
   "main": "lib/provider.js",
   "engines": {
