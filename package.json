@@ -8,11 +8,11 @@
     "build",
     "inno setup",
     "innosetup",
-    "installer"
+    "installer",
     "windows",
     "iscc",
     "build tool",
-    "compiler",
+    "compiler"
   ],
   "main": "lib/provider.js",
   "engines": {
