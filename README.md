@@ -42,8 +42,8 @@ $ git clone https://github.com/idleberg/atom-build-innosetup build-innosetup
 Install Node dependencies:
 
 ```bash
-cd build-innosetup
-npm install
+$ cd build-innosetup
+$ npm install
 ```
 
 ## Usage
