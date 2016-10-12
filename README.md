@@ -39,10 +39,9 @@ Clone repository as `build-innosetup`:
 $ git clone https://github.com/idleberg/atom-build-innosetup build-innosetup
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd build-innosetup
 $ yarn || npm install
 ```
 
