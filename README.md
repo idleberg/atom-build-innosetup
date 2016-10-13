@@ -21,7 +21,7 @@ Install `build-innosetup` from Atom's [Package Manager](http://flight-manual.ato
 
 `$ apm install build-innosetup`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
