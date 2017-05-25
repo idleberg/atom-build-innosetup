@@ -1,6 +1,6 @@
 {
   "name": "build-innosetup",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Atom Build provider for Inno Setup, compiles Inno Setup scripts",
   "repository": "https://github.com/idleberg/atom-build-innosetup",
   "license": "MIT",
