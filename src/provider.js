@@ -1,10 +1,9 @@
 import { configSchema, getConfig } from './config';
 import { platform } from 'os';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
-import { spawnSync } from 'child_process';
-
-// Package settings
+import Logger from './log';
 import meta from '../package.json';
+import which from 'which';
 
 export { configSchema as config };
 
@@ -20,6 +19,7 @@ export function provideBuilder() {
 
     isEligible() {
       if (getConfig('alwaysEligible') === true) {
+        Logger.log('Always eligible');
         return true;
       }
 
@@ -27,12 +27,13 @@ export function provideBuilder() {
         return false;
       }
 
-      const cmd = spawnSync('where', ['ISCC.exe']);
-      if (!cmd.stdout.toString()) {
-        return false;
+      if (which.sync('ISCC.exe', { nothrow: true })) {
+        Logger.log('Build provider is eligible');
+        return true;
       }
 
-      return true;
+      Logger.error('Build provider isn\'t eligible');
+      return false;
     }
 
     settings() {
@@ -56,9 +57,15 @@ export function provideBuilder() {
   };
 }
 
-// This package depends on build, make sure it's installed
 export function activate() {
+  Logger.log('Activating package');
+
+  // This package depends on build, make sure it's installed
   if (getConfig('manageDependencies') === true) {
     satisfyDependencies(meta.name);
   }
+}
+
+export function deactivate() {
+  Logger.log('Deactivating package');
 }
